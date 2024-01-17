@@ -1,0 +1,45 @@
+.table-detail{
+	width: 100%;
+}
+.table-detail tr{
+	border-bottom: 0px solid #dedede;
+}
+.table-detail tr th{
+	width: 25%;
+}
+.table-detail tr td{
+	padding: 12px 0 !important;
+}
+.table-detail tr td img{
+	width: 100px;
+	height: 100px;
+	border: 3px solid #dedede;
+	padding: 3px;
+	border-radius: 100px;
+}
+.table-detail tr td .name{
+	display: block;
+	margin: 10px 0;
+	font-size: 20px
+}
+.pilihan-radio{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+
+}
+.pilihan-radio .pilihan label{
+	display: block;
+}
+.pilihan-radio .pilihan label.hadir{
+	color: green;
+}
+.pilihan-radio .pilihan label.alpa{
+	color: red;
+}
+.pilihan-radio .pilihan label.izin{
+	color: orange;
+}
+.cekslis-siswa{
+	float: left;
+}
